@@ -9,7 +9,7 @@
 	<meta name="keyword" content="">
 	<meta name="author" content="Adriel,Cauã">
     <title>TCC</title>
-    <link rel="stylesheet" href="../css/style.css" type="text/css" media="all">
+    <link rel="stylesheet" href="../login/login.css" type="text/css" media="all">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <div class="content">
