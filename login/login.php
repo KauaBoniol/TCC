@@ -1,3 +1,10 @@
+<?php
+
+?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -45,19 +52,19 @@
         <div class="container">
             <div class="login-box">
               <h2>Login</h2>
-              <form action="../config/config.php" method="post">
+              <form action="./BackLogin.php" method="post">
                 <label for="username">Email:</label>
-                <input type="text" id="username" name="username" required>
+                <input type="text" id="email" name="email" required>
           
                 <label for="password">Senha:</label>
-                <input type="password" id="password" name="password" required>
+                <input type="password" id="senha" name="senha" required>
                 
                 <button type="submit">Entrar</button>
               </form>
               <br>
               <hr>
               <br>
-              <a class="create">Criar conta</a>
+              <a  href="../formulario/formulario.php" class="create">Criar conta</a>
             </div>
           </div>
     </main>
