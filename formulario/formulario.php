@@ -47,14 +47,14 @@
                 <h2 align="center">Cadastre-se</h2>
                 <form action="./confFormulario.php" method="post" class="form-grid">
                     <div class="form-column">
-                        <label for="nome_completo">Nome Completo:</label>
-                        <input type="text" id="nome_completo" name="nome_completo" required>
+                        <label for="nome">Nome Completo:</label>
+                        <input type="text" id="nome" name="nome" required>
         
                         <label for="cpf">CPF:</label>
-                        <input type="text" id="cpf" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="Ex: 123.456.789-10" required>
+                        <input type="text" maxlength="14" id="cpf" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="Ex: 123.456.789-10" required>
         
                         <label for="data_nascimento">Data de Nascimento:</label>
-                        <input type="date" id="data_nascimento" name="data_nascimento" required>
+                        <input type="date" id="data_nascimento" name="data_nascimento"  required>
         
                         <label for="sexo">Sexo:</label>
                         <select id="sexo" name="sexo">
@@ -64,7 +64,7 @@
                         </select>
         
                         <label for="cep">CEP:</label>
-                        <input type="text" id="cep" name="cep" pattern="\d{5}-\d{3}" placeholder="Ex: 12345-678" required>
+                        <input type="text" id="cep" name="cep" pattern="\d{5}-\d{3}" maxlength="9" placeholder="Ex: 12345-678" required>
                     </div>
                     <div class="form-column">
                         <label for="endereco">Endereço:</label>
@@ -73,20 +73,22 @@
                         <label for="numero_residencia">Número da Residência:</label>
                         <input type="text" id="numero_residencia" name="numero_residencia" required>
         
-                        <label for="telefone_celular">Telefone Celular:</label>
-                        <input type="tel" id="telefone_celular" name="telefone_celular" pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}" placeholder="Ex: (12) 12345-6789" required>
+                        <label for="telefone">Telefone Celular:</label>
+                        <input type="int" id="telefone" name="telefone" maxlength="14"      placeholder="Ex: (12) 12345-6789" required>
                         
                         <label for="email">E-mail:</label>
                         <input type="email" id="email" name="email" required>
         
                         <label for="password">Senha:</label>
                         <input type="password" id="senha" name="senha" required>
+
+                        <input type="submit" id="submit" name="submit" value="Criar conta">
                     </div>
                     
                 </form>
                 <hr>
                 <br>
-                <a class="create">Criar conta</a>
+                
             </div>
         </div>
     </main>
