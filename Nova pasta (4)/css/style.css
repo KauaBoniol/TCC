@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: Arial;
+}
+
+  .contnt {
+    max-width: 1800px; /* Largura máxima do conteúdo */
+    margin: 0 auto; /* Centralize o conteúdo na tela */
+    padding: 20px; /* Espaçamento interno da área de conteúdo */
+    background-color: #fbe2c9; /* Cor de fundo da área de conteúdo */
+  }
+
+.navbar {
+    max-width: 1100px; /* Largura máxima do conteúdo */
+    margin: 0 auto; /* Centralize o conteúdo na tela */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fbe2c9; /* Cor de fundo da navbar, se desejar */
+    padding: 10px 20px; /* Espaçamento interno da navbar */
+    
+}
+
+.navbar a{
+    color: black; /* Define a cor do texto dos links */
+    text-decoration: none;
+    font-weight: bold
+}
+
+.logo {
+    max-width: 30px; /* Largura máxima da imagem */
+    height: auto; /* Altura automática para manter a proporção da imagem */
+}
+
+ol {
+    list-style-type: none;
+  }
+
+ol li {
+    display: inline-block;
+    margin-right: 10px; /* Espaçamento entre os marcadores */
+  }
+
+.favoritos {
+    max-width: 38px; /* Largura máxima da imagem */
+    height: auto; /* Altura automática para manter a proporção da imagem */
+    
+}
+
+.usuario {
+    max-width: 42px; /* Largura máxima da imagem */
+    height: auto; /* Altura automática para manter a proporção da imagem */
+    display: block; /* Faz a imagem se comportar como um bloco */
+    margin-top: 0px;
+}
+
+.compras {
+    max-width: 38px; /* Largura máxima da imagem */
+    height: auto; /* Altura automática para manter a proporção da imagem */
+}
+
+.carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px; /* Largura das setas */
+    height: 50px; /* Altura das setas */
+    cursor: pointer;
+  }
+
+  .carousel-arrow-left {
+    left: 40px; /* Posição da seta esquerda */
+  }
+
+  .carousel-arrow-right {
+    right: 40px; /* Posição da seta direita */
+  }
+
+
+.principal1 {
+    width: 100%; /* Garante que a imagem seja proporcional */
+    max-height: 130%; /* Garante que a imagem seja proporcional */
+    overflow: hidden;
+    display: block; /* Faz a imagem se comportar como um bloco */
+    margin: auto; /* Centraliza a imagem horizontalmente */
+    margin-left: -1px;
+    border-radius: 20px;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: center; /* Distribui os ícones uniformemente */
+    gap: 100px;
+  }
+
+  /* Estilo para os ícones */
+.icon {
+    width: 40px; /* Largura dos ícones */
+    height: 40px; /* Altura dos ícones */
+    justify-content: center;
+  }
+
+.icon-wrapper {
+    text-align: center; /* Centraliza o texto horizontalmente */
+  }
+
+.icon-text {
+    font-size: 14px; /* Tamanho da fonte do texto */
+  }
+
+.ecobags {
+    font-size: 64px; /* Tamanho grande do texto */
+    font-weight: bold; /* Texto em negrito */
+    margin-left: 300px
+  }
+
+.ecobags-text {
+    font-size: 18px; /* Tamanho pequeno do texto */
+    margin-left: 300px;
+    margin-top: -30px;
+    white-space: nowrap;
+  }
+
+  .container-ecobag {
+    display: flex; /* Utiliza o layout flexível */
+    align-items: center; /* Centraliza verticalmente os elementos */
+    justify-content: space-between; /* Distribui os elementos uniformemente */
+    max-width: 1200px; /* Largura máxima do contêiner */
+    margin: 0 auto; /* Centraliza o contêiner na página */
+    margin-left: 10%;
+    margin-top: -70px
+    
+  }
+
+.img-ecobag {
+    max-width: 600px; /* Largura máxima da imagem */
+    height: auto; /* Altura automática para manter a proporção */
+    margin-top: 100px;
+    margin-left: 180px;
+  }
+
+  .faixa-verde {
+    background-color: #264218; /* Cor de fundo da faixa */
+    color: #fff; /* Cor do texto dentro da faixa */
+    padding: 30px; /* Espaçamento interno da faixa */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    font-size: 18px; /* Tamanho da fonte do texto */
+    border-radius: 10px
+  }
+
+  .destaq {
+    font-size: 42px; /* Tamanho grande do texto */
+    font-weight: bold; /* Texto em negrito */
+    margin-bottom: 0; /* Remove a margem inferior do texto destacado */
+  }
+
+  .txt {
+    font-size: 16px; /* Tamanho pequeno do texto */
+    margin-top: 2%; /* Remove a margem superior do texto pequeno */
+  }
+
+  .imgs-finais {
+    display: flex; /* Utiliza o layout flexível */
+    align-items: center; /* Centraliza verticalmente os elementos */
+    justify-content: space-between; /* Distribui os elementos uniformemente */
+    max-width: 1200px; /* Largura máxima do contêiner */
+    margin: 0 auto; /* Centraliza o contêiner na página */
+    margin-left: 10%;
+    margin-top: -70px;
+    
+  }
+
+  .excelencia {
+    max-width: 350px; /* Largura máxima da imagem */
+    height: auto; /* Altura automática para manter a proporção */
+    margin-top: 100px;
+    margin-left: 10%;
+    border-radius: 20px;
+  }
+
+  .excelencia2 {
+    max-width: 350px; /* Largura máxima da imagem */
+    height: auto; /* Altura automática para manter a proporção */
+    margin-top: 100px;
+    margin-left: 220px; 
+    border-radius: 20px;
+  }
+
+  .exc-text-A {
+    font-size: 24px; /* Tamanho grande do texto */
+    margin-left: 270px;
+    font-family: 'Times New Roman', Times, serif
+  }
+
+  .exc-text2-A {
+    font-size: 28px; /* Tamanho grande do texto */
+    font-weight: bold; /* Texto em negrito */
+    margin-left: 270px
+  }
+
+  .exc-text-B {
+    font-size: 24px; /* Tamanho grande do texto */
+    margin-right: 90px;
+    font-family: 'Times New Roman', Times, serif
+  }
+
+  .exc-text2-B {
+    font-size: 28px; /* Tamanho grande do texto */
+    font-weight: bold; /* Texto em negrito */
+    margin-right: 90px;
+  }
+
+  .exc-text-C {
+    font-size: 24px; /* Tamanho grande do texto */
+    margin-left: 270px;
+    font-family: 'Times New Roman', Times, serif
+  }
+
+  .exc-text2-C {
+    font-size: 28px; /* Tamanho grande do texto */
+    font-weight: bold; /* Texto em negrito */
+    margin-left: 270px
+  }
+
+  .rodape {
+    background-color: #264218; /* Cor de fundo da faixa */
+    color: #fff; /* Cor do texto dentro da faixa */
+    padding: 50px; /* Espaçamento interno da faixa */
+    font-size: 18px; /* Tamanho da fonte do texto */
+    display: flex; /* Utiliza o layout flexível */
+    justify-content: center; /* Distribui as colunas uniformemente */
+    margin: 0 auto;
+    border-radius: 10px
+  }
+
+  .coluna {
+    flex: 1; /* Ajusta a largura das colunas para distribuir igualmente */
+    padding: 20px; /* Espaçamento interno das colunas */
+    margin-left: 8%
+    
+  }
+
+  /* Estilo para cada item do rodapé */
+  .item {
+    margin-bottom: 10px; /* Espaçamento inferior entre os itens */
+  }
+
+  /* Estilo para destacar a primeira linha de cada coluna */
+  .item:nth-of-type(1) {
+    margin-bottom: 20px; /* Espaçamento maior para a primeira linha */
+    font-weight: bold; /* Texto em negrito */
+  }
+
+
+header {
+    font-family: 'Roboto' sans-serif; /* Usa a fonte Roboto */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif; /* Usa a fonte Roboto para os títulos */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Syne+Tactile&display=swap')
