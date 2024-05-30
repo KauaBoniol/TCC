@@ -14,5 +14,5 @@ document.getElementById('anterior').addEventListener('click', () => {
 function atualizarVisibilidade() {
   produtos.forEach((produto, i) => {
     produto.style.display = (i >= index && i < index + 4) ? 'flex' : 'none'; // Exibe apenas 4 produtos
-  });
+  }); g
 }
