@@ -1,0 +1,77 @@
+body, html {
+    font: arial;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.clear{clear:both}
+
+.center{
+    padding:0 2%; 
+    margin: 0 auto;
+}
+
+.barra-lateral{
+    overflow-y: auto;
+    height: 100%;
+    background: red;
+    float: left;
+    width: 300px;
+}
+
+header{
+    float: right;
+    padding: 10px 0;
+    background: #264218;
+    width: calc(100% - 300px);
+}
+
+.loggout{
+    float: right;
+}
+
+.loggout a{
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+
+.menu-btn{
+    float: left;
+    cursor: pointer;
+    font-size: 23px;
+    color: white;
+}
+
+div.box-usuario{
+    text-align: center;
+}
+
+.avatar-usuario{
+    text-align: left;
+    display: inline-block;
+    margin-top: 10px;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 3px solid #2f3d42 ;
+}
+
+.avatar-usuario i{
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50% -50%);
+    font-size: 50px;
+    color: #2f3d42
+}
+
+.nome-usuario{
+    text-align: center;
+}
+
+.nome-usuario p{
+    color: white;
+    font-size: 16px;
+}

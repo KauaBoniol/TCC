@@ -9,25 +9,25 @@
   <meta name="keyword" content="">
   <meta name="author" content="Adriel,Cauã">
     <title>TCC</title>
-    <link rel="stylesheet" href="./formulario.css">
+    <link rel="stylesheet" href="../css/formulario.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <div class="content">
 <body bgcolor="fbe2c9">
     <header>
         
-        <nav class="navbar">
+    <nav class="navbar">
             <img class="logo" src="..\imagens\sacolinha.png" alt="">
-                <a href="#home" >HOME</a>
-                <a href="#produtos" >PRODUTOS</a>
+                <a href="index.php" >HOME</a>
+                <a href="produtos.php" >PRODUTOS</a>
                 <a href="#personalize" >PERSONALIZE</a>
-                <a href="#contato" >CONTATO</a>
+                <a href="contato.php" >CONTATO</a>
                 <a href="#sobrenós" >SOBRE NÓS </a>
 
-            <ol>
-                <li><img class="favoritos" src="..\imagens\botao-curtir.png" alt=""></i></a></li>
-                <li><img class="usuario" src="..\imagens\usuario.png" alt=""></i></a></li>
-                <li><img class="compras" src="..\imagens\carrinho-de-compras.png" alt=""></i></a></li>
+              <ol>
+                <li><a href="favoritos.php"><img class="favoritos" src="..\imagens\botao-curtir.png" alt=""></i></a></li>
+                <li><a href="login.php"><img class="usuario" src="..\imagens\usuario.png" alt=""></i></a></li>
+                <li><a href="produtos.php"><img class="compras" src="..\imagens\carrinho-de-compras.png" alt=""></i></a></li>
             </ol>
         </nav>
     </header>

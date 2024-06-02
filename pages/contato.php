@@ -9,7 +9,7 @@
 	<meta name="keyword" content="">
 	<meta name="author" content="Adriel,Cauã">
     <title>TCC</title>
-    <link rel="stylesheet" href="D:\ETEC\Desenvolvimento de Sistemas\TCC\contato\css\contato.css" type="text/css" media="all">
+    <link rel="stylesheet" href="..\css\contato.css" type="text/css" media="all">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 </head>
@@ -17,18 +17,18 @@
 <body bgcolor="fbe2c9">
     <header>
         
-        <nav class="navbar">
-            <img class="logo" src="D:\ETEC\Desenvolvimento de Sistemas\TCC\imagens\sacolinha.png" alt="">
-                <a href="#home" >HOME</a>
-                <a href="#produtos" >PRODUTOS</a>
+    <nav class="navbar">
+            <img class="logo" src="..\imagens\sacolinha.png" alt="">
+                <a href="index.php" >HOME</a>
+                <a href="produtos.php" >PRODUTOS</a>
                 <a href="#personalize" >PERSONALIZE</a>
-                <a href="#contato" >CONTATO</a>
+                <a href="contato.php" >CONTATO</a>
                 <a href="#sobrenós" >SOBRE NÓS </a>
 
-            <ol>
-                <li><img class="favoritos" src="D:\ETEC\Desenvolvimento de Sistemas\TCC\imagens\botao-curtir.png" alt=""></i></a></li>
-                <li><img class="usuario" src="D:\ETEC\Desenvolvimento de Sistemas\TCC\imagens\usuario.png" alt=""></i></a></li>
-                <li><img class="compras" src="D:\ETEC\Desenvolvimento de Sistemas\TCC\imagens\carrinho-de-compras.png" alt=""></i></a></li>
+              <ol>
+                <li><a href="favoritos.php"><img class="favoritos" src="..\imagens\botao-curtir.png" alt=""></i></a></li>
+                <li><a href="login.php"><img class="usuario" src="..\imagens\usuario.png" alt=""></i></a></li>
+                <li><a href="produtos.php"><img class="compras" src="..\imagens\carrinho-de-compras.png" alt=""></i></a></li>
             </ol>
         </nav>
     </header>
@@ -72,10 +72,10 @@
             
             <div class="icones-container">
                 <div>
-                    <img src="D:\ETEC\Desenvolvimento de Sistemas\TCC\imagens\whatsapp.png" alt="Ícone 1" class="icones">
+                    <img src="..\imagens\whatsapp.png" alt="Ícone 1" class="icones">
                     <span class="texto-icones">+55 (11)99999-9999</span>
                     
-                    <img src="D:\ETEC\Desenvolvimento de Sistemas\TCC\imagens\email.png" alt="Ícone 2" class="icones">
+                    <img src="..\imagens\email.png" alt="Ícone 2" class="icones">
                     <span class="texto-icones">GokuSemCamisa@Gmail.com</span>
                 </div>
             </div>

@@ -9,7 +9,7 @@
     <meta name="keyword" content="">
     <meta name="author" content="Adriel,Cauã">
     <title>TCC</title>
-    <link rel="stylesheet" href="D:\ETEC\Desenvolvimento de Sistemas\TCC\css\style.css" type="text/css" media="all">
+    <link rel="stylesheet" href="..\css\style.css" type="text/css" media="all">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 </head>
@@ -17,27 +17,28 @@
 <body bgcolor="fbe2c9">
     <header>
         
-        <nav class="navbar">
-            <img class="logo" src="D:\ETEC\Desenvolvimento de Sistemas\TCC\imagens\sacolinha.png" alt="">
-                <a href="#home" >HOME</a>
-                <a href="#produtos" >PRODUTOS</a>
+    
+    <nav class="navbar">
+            <img class="logo" src="..\imagens\sacolinha.png" alt="">
+                <a href="index.php" >HOME</a>
+                <a href="produtos.php" >PRODUTOS</a>
                 <a href="#personalize" >PERSONALIZE</a>
-                <a href="#contato" >CONTaaaATO</a>
+                <a href="contato.php" >CONTATO</a>
                 <a href="#sobrenós" >SOBRE NÓS </a>
 
-            <ol>
-                <li><img class="favoritos" src="D:\ETEC\Desenvolvimento de Sistemas\TCC\imagens\botao-curtir.png" alt=""></i></a></li>
-                <li><img class="usuario" src="D:\ETEC\Desenvolvimento de Sistemas\TCC\imagens\usuario.png" alt=""></i></a></li>
-                <li><img class="compras" src="D:\ETEC\Desenvolvimento de Sistemas\TCC\imagens\carrinho-de-compras.png" alt=""></i></a></li>
+              <ol>
+                <li><a href="favoritos.php"><img class="favoritos" src="..\imagens\botao-curtir.png" alt=""></i></a></li>
+                <li><a href="login.php"><img class="usuario" src="..\imagens\usuario.png" alt=""></i></a></li>
+                <li><a href="produtos.php"><img class="compras" src="..\imagens\carrinho-de-compras.png" alt=""></i></a></li>
             </ol>
         </nav>
     </header>
 
     <main>
         <div class="carousel-img">
-            <img class="principal1" src="D:\ETEC\Desenvolvimento de Sistemas\TCC\imagens\ecobag.png" alt="Sua imagem">
-            <img class="carousel-arrow carousel-arrow-left" src="D:\ETEC\Desenvolvimento de Sistemas\TCC\imagens\esquerda.png" alt="Seta esquerda">
-            <img class="carousel-arrow carousel-arrow-right" src="D:\ETEC\Desenvolvimento de Sistemas\TCC\imagens\direita.png" alt="Seta direita">
+            <img class="principal1" src="..\imagens\ecobag.png" alt="Sua imagem">
+            <img class="carousel-arrow carousel-arrow-left" src="..\imagens\esquerda.png" alt="Seta esquerda">
+            <img class="carousel-arrow carousel-arrow-right" src="..\imagens\direita.png" alt="Seta direita">
           </div>
 
           <br>
@@ -45,19 +46,19 @@
 
           <div class="icons-container">
             <div class="icon-wrapper">
-                <img class="icon" src="D:\ETEC\Desenvolvimento de Sistemas\TCC\imagens\icone1.png" alt="Ícone 1">
+                <img class="icon" src="..\imagens\icone1.png" alt="Ícone 1">
                 <div class="icon-text1">Parcele em até 6x sem juros</div>
             </div>
             <div class="icon-wrapper">
-                <img class="icon" src="D:\ETEC\Desenvolvimento de Sistemas\TCC\imagens\icone2.png" alt="Ícone 2">
+                <img class="icon" src="..\imagens\icone2.png" alt="Ícone 2">
                 <div class="icon-text2">Frete Grátis</div>
             </div>
             <div class="icon-wrapper">
-                <img class="icon" src="D:\ETEC\Desenvolvimento de Sistemas\TCC\imagens\icone3.png" alt="Ícone 3">
+                <img class="icon" src="..\imagens\icone3.png" alt="Ícone 3">
                 <div class="icon-text3">Conheça nosso Instagram</div>
             </div>
             <div class="icon-wrapper">
-                <img class="icon" src="D:\ETEC\Desenvolvimento de Sistemas\TCC\imagens\icone4.png" alt="Ícone 4">
+                <img class="icon" src="..\imagens\icone4.png" alt="Ícone 4">
                 <div class="icon-text4">Tik Tok da Loja</div>
             </div>
           </div>
@@ -76,7 +77,7 @@
                     Faça parte do movimento sustentável com<br> nossas ecobags de uso pessoal. <br>
                     Escolha qualidade, estilo e consciência.</p>
             </div>
-            <img class="img-ecobag" src="D:\ETEC\Desenvolvimento de Sistemas\TCC\imagens\img-ecobag.png" alt="ecobag">
+            <img class="img-ecobag" src="..\imagens\img-ecobag.png" alt="ecobag">
           </div>
           
           <br>
@@ -99,13 +100,13 @@
                     Feito à mão<br>
                     100% Sustentável</p>
             </div>
-            <img class="excelencia" src="D:\ETEC\Desenvolvimento de Sistemas\TCC\imagens\excelencia.jpg" alt="excelencia">
+            <img class="excelencia" src="..\imagens\excelencia.jpg" alt="excelencia">
           </div>
 
           <br>
 
           <div class="imgs-finais">
-            <img class="excelencia2" src="D:\ETEC\Desenvolvimento de Sistemas\TCC\imagens\excelencia2.png" alt="excelencia2">
+            <img class="excelencia2" src="..\imagens\excelencia2.png" alt="excelencia2">
             <div>
                 <p class="exc-text-B">Personalize</p>
                 <p class="exc-text2-B">
@@ -125,7 +126,7 @@
                     Grandes impactos<br>
                     Seja herói do meio ambiente</p>
             </div>
-            <img class="excelencia" src="D:\ETEC\Desenvolvimento de Sistemas\TCC\imagens\excelencia3.png" alt="excelencia3">
+            <img class="excelencia" src="..\imagens\excelencia3.png" alt="excelencia3">
           </div>
 
           <br>
