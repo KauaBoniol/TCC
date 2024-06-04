@@ -24,6 +24,7 @@ if (isset($_GET['loggout'])) {
             </div><!-- avatar-->
             <div class="nome-usuario">
                 <p><?php echo $_SESSION['nome'];?></p>
+                <p>teste<p>
             </div>
         </div><!-- box-usuario-->
     </div><!-- barra-lateral-->

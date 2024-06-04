@@ -178,4 +178,36 @@ ol li {
     font-weight: bold; /* Texto em negrito */
   }
 
+  .product-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+
+  .icon-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    transition: border-color 0.3s, background-color 0.3s;
+  }
+  
+  .icon-circle i {
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .icon-circle:hover {
+    border-color: #264218;
+    background-color: #264218;
+  }
+  
+  .icon-circle:hover i {
+    color: #fff;
+  }
   

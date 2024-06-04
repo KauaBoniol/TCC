@@ -17,19 +17,18 @@
 <body bgcolor="fbe2c9">
     <header>
         
-    
-    <nav class="navbar">
+        <nav class="navbar">
             <img class="logo" src="..\imagens\sacolinha.png" alt="">
-                <a href="index.php" >HOME</a>
-                <a href="produtos.php" >PRODUTOS</a>
+                <a href="#home" >HOME</a>
+                <a href="#produtos" >PRODUTOS</a>
                 <a href="#personalize" >PERSONALIZE</a>
-                <a href="contato.php" >CONTATO</a>
+                <a href="#contato" >CONTATO</a>
                 <a href="#sobrenós" >SOBRE NÓS </a>
 
-              <ol>
-                <li><a href="favoritos.php"><img class="favoritos" src="..\imagens\botao-curtir.png" alt=""></i></a></li>
-                <li><a href="login.php"><img class="usuario" src="..\imagens\usuario.png" alt=""></i></a></li>
-                <li><a href="produtos.php"><img class="compras" src="..\imagens\carrinho-de-compras.png" alt=""></i></a></li>
+            <ol>
+                <li><img class="favoritos" src="..\imagens\botao-curtir.png" alt=""></i></a></li>
+                <li><img class="usuario" src="..\imagens\usuario.png" alt=""></i></a></li>
+                <li><img class="compras" src="..\imagens\carrinho-de-compras.png" alt=""></i></a></li>
             </ol>
         </nav>
     </header>
@@ -100,13 +99,13 @@
                     Feito à mão<br>
                     100% Sustentável</p>
             </div>
-            <img class="excelencia" src="..\imagens\excelencia.jpg" alt="excelencia">
+            <img class="excelencia" src="..\imagens\principal4.jpeg" alt="excelencia">
           </div>
 
           <br>
 
           <div class="imgs-finais">
-            <img class="excelencia2" src="..\imagens\excelencia2.png" alt="excelencia2">
+            <img class="excelencia2" src="..\imagens\principal2.jpeg" alt="excelencia2">
             <div>
                 <p class="exc-text-B">Personalize</p>
                 <p class="exc-text2-B">
@@ -126,7 +125,7 @@
                     Grandes impactos<br>
                     Seja herói do meio ambiente</p>
             </div>
-            <img class="excelencia" src="..\imagens\excelencia3.png" alt="excelencia3">
+            <img class="excelencia" src="..\imagens\principal3.jpeg" alt="excelencia3">
           </div>
 
           <br>

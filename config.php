@@ -1,4 +1,4 @@
 <?php
-    define('INCLUDE_PATH' . 'http://localhost/TCCC/');
+    define('INCLUDE_PATH' . 'http://localhost/TCC/');
 
     

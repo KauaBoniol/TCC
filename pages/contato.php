@@ -17,18 +17,18 @@
 <body bgcolor="fbe2c9">
     <header>
         
-    <nav class="navbar">
+        <nav class="navbar">
             <img class="logo" src="..\imagens\sacolinha.png" alt="">
-                <a href="index.php" >HOME</a>
-                <a href="produtos.php" >PRODUTOS</a>
+                <a href="#home" >HOME</a>
+                <a href="#produtos" >PRODUTOS</a>
                 <a href="#personalize" >PERSONALIZE</a>
-                <a href="contato.php" >CONTATO</a>
+                <a href="#contato" >CONTATO</a>
                 <a href="#sobrenós" >SOBRE NÓS </a>
 
-              <ol>
-                <li><a href="favoritos.php"><img class="favoritos" src="..\imagens\botao-curtir.png" alt=""></i></a></li>
-                <li><a href="login.php"><img class="usuario" src="..\imagens\usuario.png" alt=""></i></a></li>
-                <li><a href="produtos.php"><img class="compras" src="..\imagens\carrinho-de-compras.png" alt=""></i></a></li>
+            <ol>
+                <li><img class="favoritos" src="..\imagens\botao-curtir.png" alt=""></i></a></li>
+                <li><img class="usuario" src="..\imagens\usuario.png" alt=""></i></a></li>
+                <li><img class="compras" src="..\imagens\carrinho-de-compras.png" alt=""></i></a></li>
             </ol>
         </nav>
     </header>
@@ -73,7 +73,7 @@
             <div class="icones-container">
                 <div>
                     <img src="..\imagens\whatsapp.png" alt="Ícone 1" class="icones">
-                    <span class="texto-icones">+55 (11)99999-9999</span>
+                    <span class="texto-icones">+55 (11)99999-9999</span>    
                     
                     <img src="..\imagens\email.png" alt="Ícone 2" class="icones">
                     <span class="texto-icones">GokuSemCamisa@Gmail.com</span>

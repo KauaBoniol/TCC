@@ -9,7 +9,7 @@
 	<meta name="keyword" content="">
 	<meta name="author" content="Adriel,Cauã">
     <title>TCC</title>
-    <link rel="stylesheet" href="D:\ETEC\Desenvolvimento de Sistemas\TCC\sobre_nós\sobrenos.css" type="text/css" media="all">
+    <link rel="stylesheet" href="..\css\sobrenos.css" type="text/css" media="all">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <div class="content">
@@ -17,7 +17,7 @@
     <header>
         
         <nav class="navbar">
-            <img class="logo" src="D:\ETEC\Desenvolvimento de Sistemas\TCC\imagens\sacolinha.png" alt="">
+            <img class="logo" src="..\imagens\sacolinha.png" alt="">
                 <a href="#home" >HOME</a>
                 <a href="#produtos" >PRODUTOS</a>
                 <a href="#personalize" >PERSONALIZE</a>
@@ -25,9 +25,9 @@
                 <a href="#sobrenós" >SOBRE NÓS </a>
 
             <ol>
-                <li><img class="favoritos" src="D:\ETEC\Desenvolvimento de Sistemas\TCC\imagens\botao-curtir.png" alt=""></i></a></li>
-                <li><img class="usuario" src="D:\ETEC\Desenvolvimento de Sistemas\TCC\imagens\usuario.png" alt=""></i></a></li>
-                <li><img class="compras" src="D:\ETEC\Desenvolvimento de Sistemas\TCC\imagens\carrinho-de-compras.png" alt=""></i></a></li>
+                <li><img class="favoritos" src="..\imagens\botao-curtir.png" alt=""></i></a></li>
+                <li><img class="usuario" src="..\imagens\usuario.png" alt=""></i></a></li>
+                <li><img class="compras" src="..\imagens\carrinho-de-compras.png" alt=""></i></a></li>
             </ol>
         </nav>
     </header>
@@ -60,7 +60,7 @@
             <h1>Onde Estamos</h1>
             <p>Estamos localizados na região noroeste da capital paulista (São Paulo-SP), situados no Prédio Etec Paulistano <br>  Av. Elísio Teixeira Leite, 3393 <br> Jardim Paulistano <br> São Paulo - SP <br> 02810-000.</p>
             <br>
-            <img class="loc" src="D:\ETEC\Desenvolvimento de Sistemas\TCC\imagens\loc.png" alt=""></i>
+            <img class="loc" src="..\imagens\loc.png" alt=""></i>
         </div>
         
     </main>
