@@ -1,10 +1,14 @@
 <?php
-  include('../classes/conexao_BD.php');
-  include('../classes/Painel.php');
+	ob_start();
+	include('../config.php');
+    include('../classes/Painel.php');
 
-    if(Painel::logado() == false){
-        include('login.php');
-    }else{
-        include('logado.php');
-    }
+	if(Painel::logado() == false){
+		include('login.php');
+	}else{
+		include('logado.php');
+	}
+
+	ob_end_flush();
+
 ?>
